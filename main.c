@@ -51,7 +51,7 @@ int main() {
       else if (isOperator(input, '*')) { //If multiply is entered
         int product = 1;
         for (int i = 0; i < numSize; i++) {
-          product *= numbers[i]; //Product the array
+          product *= numbers[i]; //Calculate product of the array
         }
         printf("The product is: %d\n", product);
         return 1;
